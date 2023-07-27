@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Regular';
+    src: url('/CSS/Cairo-Regular.ttf');
+
+  }
+
+  @font-face {
+    font-family: 'Bold';
+    src: url('/CSS/Cairo-Bold.ttf');
+
+  }
+
+  body{
+
+    font-family: Bold;
+    font-weight: bolder;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+  }
+ 
+  .bold{
+
+    font-family: Bold;
+    font-weight: bolder;
+  }
+
+
+.section_one {
+    background: #8f1515;
+    height: 200px;
+}
+
+
+.icon{
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 45px;
+
+}
+
+.card{
+
+    outline: 2px solid #008c46;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.pargraph{
+
+    margin: 0px;
+    color: black;
+  
+
+}
+
+.none{
+
+    text-decoration: unset;
+}
+
+
+.logo{
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 330px;
+    margin-top: -143px;
+}
+
+.back{
+
+    background-color: white;
+    outline: 1px black;
+    border-radius: 10px;
+    width: 315px;
+    margin: auto;
+    box-shadow: 3px 4px 5px black;
+}
+
+.content-container {
+    position: relative;
+    animation: slideFromBottom 1.5s ease;
+    animation-fill-mode: forwards; /* Keep the final state after animation */
+  }
+  
+  @keyframes slideFromBottom {
+    0% {
+      transform: translateY(100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
